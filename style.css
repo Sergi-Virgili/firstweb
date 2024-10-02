@@ -1,0 +1,84 @@
+/* CSS RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* HEADER */
+
+.navbar {
+  background-color: rgb(122, 122, 212);
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav li {
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+li:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+/* pseudoelement */
+
+a {
+  display: block;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+}
+
+/* HERO MEIN SECTION */
+
+.flex-container {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
